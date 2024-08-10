@@ -14,5 +14,5 @@ const config = {
   },
   port: 1433,
 };
-const sqlc = sql.connect(config);
+const sqlc = sql.connect(config).catch(err => console.log(err));
 module.exports = { sqlc };

@@ -1,5 +1,5 @@
 const express = require("express");
-const { getUser } = require("moongose/controller/user_controller");
+// const { getUser } = require("moongose/controller/user_controller");
 const {
   veriyTokenGet,
   homeGet,
