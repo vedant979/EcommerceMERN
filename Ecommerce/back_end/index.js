@@ -31,7 +31,7 @@ const initDB = require("./database/init");
 initDB().catch((err) => console.log(err));
 const corsConfig = {
   credentials: true,
-  origin: "http://localhost:5173",
+  origin: "https://ecommerce-sage-sigma.vercel.app",
 };
 app.use(cors(corsConfig));
 // default middle wares to use
